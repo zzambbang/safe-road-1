@@ -17,5 +17,6 @@
 
 ## 👨‍👨‍👧‍👧 팀 소개 
 <br>
-![image](https://user-images.githubusercontent.com/50399088/128876475-eddfd173-7bdd-4273-8099-58361d0a8d5f.png)
+![image](https://user-images.githubusercontent.com/50399088/128876724-749df17c-3c18-4a5e-9a8b-3a87bf595dfa.png)
+
 201호 개발자들
