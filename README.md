@@ -1,8 +1,6 @@
 # 🚩🗺여성·아동 안심거리 길라잡이 🏃‍♂️
 
 ## 📚프로젝트 소개
-<br>
-
 ### 프로젝트의 목적과 용도
 
 국가에서 '여성/아동 안심 귀갓길' 및 '여성 안심 지킴이집' 등의 정책을 전국적으로 시행하고있습니다.
@@ -16,6 +14,6 @@
 ## 👨‍👨‍👧‍👧 팀 소개 
 <br>
 
-![201](https://user-images.githubusercontent.com/50399088/128877830-8ce41454-e01e-495f-a417-c75698ce043c.jpg){: width="100" height="100"}
+<img src="https://user-images.githubusercontent.com/50399088/128877830-8ce41454-e01e-495f-a417-c75698ce043c.jpg" width="300">
 
 201호 개발자들
