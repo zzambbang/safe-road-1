@@ -1,11 +1,11 @@
 import React from 'react'
 
-const HeaderContainer = () => {
+const index = () => {
     return (
         <div>
-            hi
+            Footer
         </div>
     )
 }
 
-export default HeaderContainer
+export default index
