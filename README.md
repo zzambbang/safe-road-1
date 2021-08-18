@@ -30,6 +30,7 @@
 
 ## 🛠 사용 기술 스택
 <br>
+
 ```
 Front-end
 ``` 
@@ -39,6 +40,7 @@ Front-end
 * CSS
 
 <br>
+
 ```
 Back-end
 ```
@@ -48,9 +50,11 @@ Back-end
 * PostgreSQL 11
 
 <br>
+
 ```
 deploy
 ```
+
 * AWS EC2(Linux)
 
 
