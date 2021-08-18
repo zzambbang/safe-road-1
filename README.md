@@ -25,7 +25,7 @@
 |프론트|이영한|[2zerone](https://github.com/2zerone)|
 |프론트|한지은|[onezeun](https://github.com/onezeun)|
 |백|주지운|[zu21un](https://github.com/zu21un)|
-|백|이혜지|[modsiw](https://github.com/modsiw)|
+|백|이혜지|[modsiw](https://github.com/zzambbang)|
 |백|김태완|[taewannn](https://github.com/taewannn)|
 
 ## 🛠 사용 기술 스택
