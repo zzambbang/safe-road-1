@@ -22,12 +22,6 @@ body {
   width: 120px;
 }
 
-.seoulmap {
-  margin-top: 200px;
-  height: 800px;
-  width: 1200px;
-}
-
 /* Individual item */
 .bm-item {
   display: inline-block;
