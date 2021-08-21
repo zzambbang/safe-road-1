@@ -6,6 +6,11 @@ import HeaderContainer from './components/Header';
 import { ReactComponent as Seoul } from './components/Seoulmap/Seoul.svg';
 
 function App() {
+
+  const onSubmit = () => {
+    alert('클릭 성공');
+  }
+
   return (
     <div id='App'>
       <HeaderContainer />
@@ -15,7 +20,9 @@ function App() {
         <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
         <h1>여성 아동 안심거리&지킴이집 길라잡이</h1>
       </div>
-      <Seoul />
+      <div onClick={onSubmit}>
+        <Seoul />
+      </div>
     </div>
   );
 }
