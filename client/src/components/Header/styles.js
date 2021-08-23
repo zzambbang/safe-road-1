@@ -39,6 +39,7 @@ export const Logo = styled.div`
     letter-spacing: 4px;
     color: ${oc.black[9]};
     font-family: 'Rajdhani';
+    text-align: middle;
 `;
 
 // 중간 여백
