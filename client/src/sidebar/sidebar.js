@@ -1,22 +1,14 @@
 import React from 'react';
 import { slide as Menu } from 'react-burger-menu';
-
+import { Link } from 'react-router-dom';
 
 const SidebarItem = () => {
   return (
     <Menu>
-      <a className='menu-item' href='/'>
-        홈
-      </a>
-      <a className='menu-item' href='/saferoad'>
-        안심거리 모아보기
-      </a>
-      <a className='menu-item' href='/safehouse'>
-        지킴이집 모아보기
-      </a>
-      <a className='menu-item' href='/motivation'>
-        제작 동기
-      </a>
+      <Link className='menu-item' to='/'>홈</Link>
+      <Link className='menu-item' to='/saferoad_all'>안심거리 모아보기</Link>
+      <Link className='menu-item' to='/safehouse_all'>지킴이집 모아보기</Link>
+      <Link className='menu-item' to='/motivation'>제작 동기</Link>
     </Menu>
   );
 };
