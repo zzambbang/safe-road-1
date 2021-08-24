@@ -1,0 +1,24 @@
+.seoul {
+	pointer-events: auto;
+}
+.seoul:hover {
+	fill: skyblue;
+}
+.TEXT {
+	pointer-events: none;
+}
+
+svg {
+	pointer-events: none;
+}
+
+path{
+	pointer-events: auto;
+}
+
+.container {
+	height: calc(100vw);
+	max-height: 1200px;
+	}
+
+	
