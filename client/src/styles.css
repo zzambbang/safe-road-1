@@ -17,6 +17,12 @@ body {
   overflow: auto;
 }
 
+.container {
+  height: calc(100vw);
+  max-height: 1150px;
+  padding-top: 150px;
+}
+
 .logo {
   height: 120px;
   width: 120px;
