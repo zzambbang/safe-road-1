@@ -1,9 +1,10 @@
 import React from 'react'
+import Table from './safehouse_table';
 
 const safehouse_all = () => {
     return (
         <div>
-            지킴이집 모아보기
+            <Table />
         </div>
     )
 }

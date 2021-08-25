@@ -5,9 +5,10 @@ import SideBar from './sidebar/sidebar';
 import HeaderContainer from './components/Header';
 import  Seoul  from './components/Seoulmap/Seoul.jsx';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import saferoad_all from './components/Menu/saferoad_all';
-import safehouse_all from './components/Menu/safehouse_all';
-import motivation from './components/Menu/motivation';
+import saferoad_all from './components/Menu/saferoad/saferoad_all';
+import safehouse_all from './components/Menu/safehouse/safehouse_all';
+import motivation from './components/Menu/motivation/motivation';
+
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
         <Seoul/>
       </Route>
       <Route path='/saferoad_all' component={saferoad_all}></Route>
-      <Route path='/safehouse_all' component={safehouse_all}></Route>
+      <Route path='/safehouse_all' component={safehouse_all}>
+      </Route>
       <Route path='/motivation' component={motivation}></Route>
     </Switch>
       </div>   
