@@ -1,24 +1,25 @@
 .seoul {
-	pointer-events: auto;
+  pointer-events: auto;
 }
 .seoul:hover {
-	fill: skyblue;
+  fill: skyblue;
 }
 .TEXT {
-	pointer-events: none;
+  pointer-events: none;
 }
 
 svg {
-	pointer-events: none;
+  pointer-events: none;
 }
 
-path{
-	pointer-events: auto;
+path {
+  pointer-events: auto;
 }
 
 .container {
-	height: calc(100vw);
-	max-height: 1200px;
-	}
-
-	
+  height: calc(100vw);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+}

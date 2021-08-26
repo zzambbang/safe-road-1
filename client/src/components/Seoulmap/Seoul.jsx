@@ -1,11 +1,14 @@
 import React from "react";
 import './Seoul.css';
+import { Link } from 'react-router-dom';
 
 function Icon() {
+
   return (
     <div class="container">
+      <h1>안심거리·지킴이집을 확인하고 싶은 지역을 선택해주세요!</h1>
     <svg
-      xmlns="http://www.w3.org/2000/svg"
+      xmlns="http://www.w3.org/2000/svg" 
       width="current"
       height="current"
       x="0"
@@ -33,6 +36,8 @@ function Icon() {
           </feMerge>
         </filter>
       </defs>
+
+      <Link to='/Dobong_gu'>
       <path
         fill="#C8C8C8"
         fillRule="evenodd"
@@ -41,6 +46,8 @@ function Icon() {
         clipRule="evenodd"
       >
       </path>
+      </Link>
+      <Link to='/Dongdaemun_gu'>
       <path
         fill="#C8C8C8"
         fillRule="evenodd"
@@ -49,6 +56,8 @@ function Icon() {
         clipRule="evenodd"
       >
       </path>
+      </Link>
+      <Link to='/Dongjak_gu'>
       <path
         fill="#C8C8C8"
         fillRule="evenodd"
@@ -56,6 +65,8 @@ function Icon() {
         className="seoul"
         clipRule="evenodd"
       ></path>
+      </Link>
+      <Link to='Eunpyeong_gu'>
       <path
         fill="#C8C8C8"
         fillRule="evenodd"
@@ -63,6 +74,8 @@ function Icon() {
         className="seoul"
         clipRule="evenodd"
       ></path>
+      </Link>
+      <Link to='Gangbuk_gu'>
       <path
         fill="#C8C8C8"
         fillRule="evenodd"
@@ -70,6 +83,8 @@ function Icon() {
         className="seoul"
         clipRule="evenodd"
       ></path>
+      </Link>
+      <Link to='Gangdong_gu'>
       <path
         fill="#C8C8C8"
         fillRule="evenodd"
@@ -77,6 +92,8 @@ function Icon() {
         className="seoul"
         clipRule="evenodd"
       ></path>
+      </Link>
+      <Link to='Gangseo_gu'>
       <path
         fill="#C8C8C8"
         fillRule="evenodd"
@@ -84,6 +101,8 @@ function Icon() {
         className="seoul"
         clipRule="evenodd"
       ></path>
+      </Link>
+      <Link to='Geumcheon_gu'>
       <path
         fill="#C8C8C8"
         fillRule="evenodd"
@@ -91,6 +110,8 @@ function Icon() {
         className="seoul"
         clipRule="evenodd"
       ></path>
+      </Link>
+      <Link to='Guro_gu'>
       <path
         fill="#C8C8C8"
         fillRule="evenodd"
@@ -98,6 +119,8 @@ function Icon() {
         className="seoul"
         clipRule="evenodd"
       ></path>
+      </Link>
+      <Link to='Gwanak_gu'>
       <path
         fill="#C8C8C8"
         fillRule="evenodd"
@@ -105,6 +128,8 @@ function Icon() {
         className="seoul"
         clipRule="evenodd"
       ></path>
+      </Link>
+      <Link to='Gwangjin_gu'>
       <path
         fill="#C8C8C8"
         fillRule="evenodd"
@@ -112,6 +137,8 @@ function Icon() {
         className="seoul"
         clipRule="evenodd"
       ></path>
+      </Link>
+      <Link to='Gangnam_gu'>
       <path
         fill="#C8C8C8"
         fillRule="evenodd"
@@ -119,6 +146,8 @@ function Icon() {
         className="seoul"
         clipRule="evenodd"
       ></path>
+      </Link>
+      <Link to='Jongno_gu'>
       <path
         fill="#C8C8C8"
         fillRule="evenodd"
@@ -126,6 +155,8 @@ function Icon() {
         className="seoul"
         clipRule="evenodd"
       ></path>
+      </Link>
+      <Link to='Jung_gu'>
       <path
         fill="#C8C8C8"
         fillRule="evenodd"
@@ -133,6 +164,8 @@ function Icon() {
         className="seoul"
         clipRule="evenodd"
       ></path>
+      </Link>
+      <Link to='Jungnang_gu'>
       <path
         fill="#C8C8C8"
         fillRule="evenodd"
@@ -140,6 +173,8 @@ function Icon() {
         className="seoul"
         clipRule="evenodd"
       ></path>
+      </Link>
+      <Link to='Mapo_gu'>
       <path
         fill="#C8C8C8"
         fillRule="evenodd"
@@ -147,6 +182,8 @@ function Icon() {
         className="seoul"
         clipRule="evenodd"
       ></path>
+      </Link>
+      <Link to='Nowon_gu'>
       <path
         fill="#C8C8C8"
         fillRule="evenodd"
@@ -154,6 +191,8 @@ function Icon() {
         className="seoul"
         clipRule="evenodd"
       ></path>
+      </Link>
+      <Link to='Seocho_gu'>
       <path
         fill="#C8C8C8"
         fillRule="evenodd"
@@ -161,6 +200,8 @@ function Icon() {
         className="seoul"
         clipRule="evenodd"
       ></path>
+      </Link>
+      <Link to='Seodaemun_gu'>
       <path
         fill="#C8C8C8"
         fillRule="evenodd"
@@ -168,6 +209,8 @@ function Icon() {
         className="seoul"
         clipRule="evenodd"
       ></path>
+      </Link>
+      <Link to='Seongbuk_gu'>
       <path
         fill="#C8C8C8"
         fillRule="evenodd"
@@ -175,6 +218,8 @@ function Icon() {
         className="seoul"
         clipRule="evenodd"
       ></path>
+      </Link>
+      <Link to='Seongdong_gu'>
       <path
         fill="#C8C8C8"
         fillRule="evenodd"
@@ -182,6 +227,8 @@ function Icon() {
         className="seoul"
         clipRule="evenodd"
       ></path>
+      </Link>
+      <Link to='Songpa_gu'>
       <path
         fill="#C8C8C8"
         fillRule="evenodd"
@@ -189,6 +236,8 @@ function Icon() {
         className="seoul"
         clipRule="evenodd"
       ></path>
+      </Link>
+      <Link to='Yangcheon_gu'>
       <path
         fill="#C8C8C8"
         fillRule="evenodd"
@@ -196,6 +245,8 @@ function Icon() {
         className="seoul"
         clipRule="evenodd"
       ></path>
+      </Link>
+      <Link to='Yeongdeungpo_gu'>
       <path
         fill="#C8C8C8"
         fillRule="evenodd"
@@ -203,13 +254,17 @@ function Icon() {
         className="seoul"
         clipRule="evenodd"
       ></path>
+      </Link>
+      <Link to='Yongsan_gu'>
       <path
+        id="Yongsan-gu"
         fill="#C8C8C8"
         fillRule="evenodd"
         d="M737.012 767.305c8.662 5.808 11.73 17.15 28.506 14.504 1.02 1.146 4.154.18 6.002.5h9.002c1.02 1.146 4.154.181 6.002.5 8.139 3.197 14.717 7.955 21.504 12.502 2.967 15.711 8.664 31.341 11.004 46.011-17.625 10.849-33.219 28.17-48.512 45.011-11.588 12.76-23.234 22.858-35.508 34.508-7.422 7.045-10.861 11.924-22.006 13.003-12.885 1.247-36.42 1.669-46.01-2.001-5.798-2.218-10.817-9.58-15.003-14.503-4.786-5.628-9.421-10.618-13.503-16.004-2.026-3.475-5.16-5.843-8.001-8.502-2.187-.646-3.144-2.523-4.501-4.001a47.773 47.773 0 00-6.501-6.501 40.724 40.724 0 00-6.001-6.001c-5.487-5.35-10.367-11.305-15.503-17.004 25.86-24.984 53.596-48.095 62.514-90.021 13.819-.684 26.499-2.507 40.509-3h8.502c2.344-.324 5.988.654 7.502-.5h10.002c3.584.247 8.551-.887 10 1.499z"
         className="seoul"
         clipRule="evenodd"
       ></path>
+      </Link>
 
       <g filter="url(#dropshadow2)">
         <text x="674" y="600" className="TEXT">

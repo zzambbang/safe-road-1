@@ -12,15 +12,16 @@ body {
 
 #page-wrap {
   text-align: center;
-
   /* Prevent sidebar from showing a scrollbar on page */
   overflow: auto;
+  min-height: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
 }
 
 .container {
   height: calc(100vw);
   max-height: 1150px;
-  padding-top: 150px;
 }
 
 .logo {

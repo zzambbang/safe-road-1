@@ -1,12 +1,19 @@
 import React from 'react'
+import { Positioner, Background, FooterContents } from './styles';
 
-const index = () => {
+const Footer = () => {
     return (
-        <div>
-            <h2>Hi</h2>
-            <h3>Hello</h3>
-        </div>
+        <Positioner>
+            <Background>
+                <FooterContents>
+                        <div>
+                            <p>대표자 전화번호 : 010-1234-5678</p>
+                            <p>made by. 201호 개발자들</p>
+                        </div>
+                </FooterContents>
+            </Background>
+        </Positioner>
     )
 }
 
-export default index
+export default Footer

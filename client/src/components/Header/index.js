@@ -1,18 +1,17 @@
 import React from 'react'
 import logo from '../../images/logo.jpg';
-import { Positioner, WhiteBackground, HeaderContents, Logo, Spacer, GradientBorder } from './styles';
+import { Positioner, WhiteBackground, HeaderContents, Logo, GradientBorder } from './styles';
 import { Link } from 'react-router-dom';
 
-const HeaderContainer = () => {
+const Header = () => {
     return (
         <Positioner>
             <WhiteBackground>
-                <HeaderContents>                    
+                <HeaderContents>                  
                     <Link to='/'>
                     <img alt='logo' className='logo' src={logo} />                       
                     </Link>
                     <Logo>안심거리·지킴이집 길라잡이</Logo>
-                    <Spacer />
                 </HeaderContents>
             </WhiteBackground>
             <GradientBorder />
@@ -20,4 +19,4 @@ const HeaderContainer = () => {
     );
 }
 
-export default HeaderContainer
+export default Header
