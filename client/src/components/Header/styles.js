@@ -8,7 +8,7 @@ export const Positioner = styled.div`
     position: fixed;
     top: 0px;
     width: 100%;
-    height: 350px;
+    height: 150px;
 `;
 
 // 흰 배경, 내용 중간 정렬
@@ -19,17 +19,16 @@ export const WhiteBackground = styled.div`
     height: auto;
 `;
 
-// 해더의 내용
+// 헤더의 내용
 export const HeaderContents = styled.div`
     width: 1200px;
     height: 120px;
     display: flex;
-    flex-direction: row;
     align-items: center;
-
+    justify-content: center;
     padding-right: 1rem;
     padding-left: 1rem;
-        width: 992px;
+    width: 992px;
 `;
 
 
@@ -39,7 +38,7 @@ export const Logo = styled.div`
     letter-spacing: 4px;
     color: ${oc.black[9]};
     font-family: 'Rajdhani';
-    text-align: middle;
+    text-align: center;
 `;
 
 // 중간 여백
