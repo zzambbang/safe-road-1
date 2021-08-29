@@ -3,7 +3,7 @@ import React from 'react'
 const Gangnam_gu = () => {
     return (
         <div>
-            강남구입니다.
+            김태완이 사는 곳입니다.
         </div>
     )
 }
