@@ -15,7 +15,7 @@ const tableHead = {
 };
 
 const Table = () => {
-  const countPerPage = 10;
+  const countPerPage = 53;
   const [value, setValue] = React.useState("");
   const [currentPage, setCurrentPage] = React.useState(1);
   const [collection, setCollection] = React.useState(
@@ -27,7 +27,7 @@ const Table = () => {
       setCurrentPage(1);
       const data = cloneDeep(
         safehouse_data
-          .filter(item => item.name.toLowerCase().indexOf(query) > -1)
+          .filter(item => item.city_county.toLowerCase().indexOf(query) > -1)
           .slice(0, countPerPage)
       );
       setCollection(data);
