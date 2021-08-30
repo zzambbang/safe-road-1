@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react'
 import { MarkerData } from '../Marker/MarkerData';
 
-function SeochoMap() {
+function SongpaMap() {
   useEffect(() => {
     mapscript();
   }, []);
@@ -10,7 +10,7 @@ function SeochoMap() {
   const mapscript = () => {
     let container = document.getElementById("map");
     let options = {
-      center: new kakao.maps.LatLng(37.4837249, 127.032566),
+      center: new kakao.maps.LatLng(37.51460, 127.10608),
       level: 5,
     };
 
@@ -37,4 +37,4 @@ function SeochoMap() {
     )
 }
 
-export default SeochoMap;
+export default SongpaMap;

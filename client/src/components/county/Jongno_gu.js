@@ -1,9 +1,10 @@
 import React from 'react'
+import JongnoMap from '../Map/JongnoMap'
 
 const Jongno_gu = () => {
     return (
         <div>
-            종로구입니다.
+            <JongnoMap />
         </div>
     )
 }

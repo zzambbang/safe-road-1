@@ -1,9 +1,10 @@
 import React from 'react'
+import NowonMap from '../Map/NowonMap'
 
 const Nowon_gu = () => {
     return (
         <div>
-            노원구입니다.
+            <NowonMap />
         </div>
     )
 }

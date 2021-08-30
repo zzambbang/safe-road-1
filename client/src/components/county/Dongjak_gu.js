@@ -1,9 +1,10 @@
 import React from 'react'
+import DongjakMap from '../Map/DongjakMap'
 
 const Dongjak_gu = () => {
     return (
         <div>
-            동작구입니다.
+            <DongjakMap />
         </div>
     )
 }

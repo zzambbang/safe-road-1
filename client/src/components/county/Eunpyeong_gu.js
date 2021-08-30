@@ -1,9 +1,10 @@
 import React from 'react'
+import EunpyeongMap from '../Map/EunpyeongMap'
 
 const Eunpyeong_gu = () => {
     return (
         <div>
-            은평구입니다.
+            <EunpyeongMap />
         </div>
     )
 }

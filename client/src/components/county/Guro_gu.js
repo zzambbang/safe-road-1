@@ -1,9 +1,10 @@
 import React from 'react'
+import GuroMap from '../Map/GuroMap'
 
 const Guro_gu = () => {
     return (
         <div>
-            구로구입니다.
+            <GuroMap />
         </div>
     )
 }

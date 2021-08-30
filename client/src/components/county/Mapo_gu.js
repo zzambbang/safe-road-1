@@ -1,9 +1,10 @@
 import React from 'react'
+import MapoMap from '../Map/MapoMap'
 
 const Mapo_gu = () => {
     return (
         <div>
-            마포구입니다.
+            <MapoMap />
         </div>
     )
 }
