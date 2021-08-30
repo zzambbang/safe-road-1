@@ -1,9 +1,10 @@
 import React from 'react'
+import SeochoMap from '../Map/SeochoMap'
 
 const Seocho_gu = () => {
     return (
         <div>
-            서초구입니다.
+            <SeochoMap />
         </div>
     )
 }
