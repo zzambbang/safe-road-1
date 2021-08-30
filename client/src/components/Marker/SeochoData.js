@@ -1,5 +1,5 @@
 export const SeochoData = [
-    {
+      {
         title: "CU 우면프라자점",
         lat: 37.4645396185,
         lng: 127.02558235,
