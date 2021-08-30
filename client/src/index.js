@@ -22,9 +22,11 @@ function App() {
       <Route path='/' exact>      
         <Seoul/>
       </Route>
-      <Route path='/saferoad_all' component={saferoad_all}></Route>
+      <Route path='/saferoad_all' component={saferoad_all}>
+      </Route>
       <Route path='/safehouse_all' component={safehouse_all}></Route>
-      <Route path='/motivation' component={motivation}></Route> 
+      <Route path='/motivation' component={motivation}>
+      </Route> 
       <Route path='/Dobong_gu' component={Dobong_gu}></Route> <Route path='/Dongdaemun_gu' component={Dongdaemun_gu}></Route> <Route path='/Dongjak_gu' component={Dongjak_gu}></Route> <Route path='/Eunpyeong_gu' component={Eunpyeong_gu}></Route> <Route path='/Gangbuk_gu' component={Gangbuk_gu}></Route> <Route path='/Gangdong_gu' component={Gangdong_gu}></Route> <Route path='/Gangnam_gu' component={Gangnam_gu}></Route> <Route path='/Gangseo_gu' component={Gangseo_gu}></Route> <Route path='/Geumcheon_gu' component={Geumcheon_gu}></Route> <Route path='/Guro_gu' component={Guro_gu}></Route> <Route path='/Gwanak_gu' component={Gwanak_gu}></Route> <Route path='/Gwangjin_gu' component={Gwangjin_gu}></Route> <Route path='/Jongno_gu' component={Jongno_gu}></Route> <Route path='/Jung_gu' component={Jung_gu}></Route> <Route path='/Jungnang_gu' component={Jungnang_gu}></Route> <Route path='/Mapo_gu' component={Mapo_gu}></Route> <Route path='/Nowon_gu' component={Nowon_gu}></Route> <Route path='/Seocho_gu' component={Seocho_gu}></Route> <Route path='/Seodaemun_gu' component={Seodaemun_gu}></Route> <Route path='/Seongbuk_gu' component={Seongbuk_gu}></Route> <Route path='/Seongdong_gu' component={Seongdong_gu}></Route> <Route path='/Songpa_gu' component={Songpa_gu}></Route> <Route path='/Yangcheon_gu' component={Yangcheon_gu}></Route> <Route path='/Yeongdeungpo_gu' component={Yeongdeungpo_gu}></Route> <Route path='/Yongsan_gu' component={Yongsan_gu}></Route>
     </Switch>
       </div>

@@ -1,9 +1,10 @@
 import React from 'react'
+import GangnamMap from '../Map/GangnamMap'
 
 const Gangnam_gu = () => {
     return (
         <div>
-            김태완이 사는 곳입니다.
+            <GangnamMap />
         </div>
     )
 }
