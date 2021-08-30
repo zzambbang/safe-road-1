@@ -3,7 +3,6 @@ import cloneDeep from "lodash/cloneDeep";
 import throttle from "lodash/throttle";
 import Pagination from "rc-pagination";
 import "rc-pagination/assets/index.css";
-
 import { safehouse_data } from "./safehouse_data";
 
 const tableHead = {
