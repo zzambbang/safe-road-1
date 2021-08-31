@@ -1,9 +1,10 @@
 import React from 'react'
+import SeodaemunMap from '../Map/SeodaemunMap'
 
 const Seodaemun_gu = () => {
     return (
         <div>
-            서대문구입니다.
+            <SeodaemunMap />
         </div>
     )
 }

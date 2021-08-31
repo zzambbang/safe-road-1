@@ -1,9 +1,10 @@
 import React from 'react'
+import JungnangMap from '../Map/JungnangMap'
 
 const Jungnang_gu = () => {
     return (
         <div>
-            중랑구입니다.
+            <JungnangMap />
         </div>
     )
 }

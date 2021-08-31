@@ -1,9 +1,10 @@
 import React from 'react'
+import GeumcheonMap from '../Map/GeumcheonMap'
 
 const Geumcheon_gu = () => {
     return (
         <div>
-            금천구입니다.
+            <GeumcheonMap />
         </div>
     )
 }

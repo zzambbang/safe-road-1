@@ -1,9 +1,10 @@
 import React from 'react'
+import JungMap from '../Map/JungMap'
 
 const Jung_gu = () => {
     return (
         <div>
-            중구입니다.
+            <JungMap />
         </div>
     )
 }

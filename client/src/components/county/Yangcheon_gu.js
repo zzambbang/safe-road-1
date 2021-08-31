@@ -1,9 +1,10 @@
 import React from 'react'
+import YangcheonMap from '../Map/YangcheonMap'
 
 const Yangcheon_gu = () => {
     return (
         <div>
-            양천구입니다.
+            <YangcheonMap />
         </div>
     )
 }

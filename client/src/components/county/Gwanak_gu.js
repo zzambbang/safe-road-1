@@ -1,9 +1,10 @@
 import React from 'react'
+import GwanakMap from '../Map/GwanakMap'
 
 const Gwanak_gu = () => {
     return (
         <div>
-            관악구입니다.
+            <GwanakMap />
         </div>
     )
 }

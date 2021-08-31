@@ -1,9 +1,10 @@
 import React from 'react'
+import DobongMap from '../Map/DobongMap'
 
 const Dobong_gu = () => {
     return (
         <div>
-            도봉구입니다.
+            <DobongMap />
         </div>
     )
 }

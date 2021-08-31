@@ -1,4 +1,4 @@
-export const SeochoData = [
+export const MarkerData = [
       {
         title: "CU 우면프라자점",
         lat: 37.4645396185,

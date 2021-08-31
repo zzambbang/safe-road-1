@@ -1,9 +1,10 @@
 import React from 'react'
+import SongpaMap from '../Map/SongpaMap'
 
 const Songpa_gu = () => {
     return (
         <div>
-            송파구입니다.
+            <SongpaMap />
         </div>
     )
 }
