@@ -1,9 +1,11 @@
 .seoul {
   pointer-events: auto;
 }
+
 .seoul:hover {
   fill: skyblue;
 }
+
 .TEXT {
   pointer-events: none;
 }
