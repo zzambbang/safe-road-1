@@ -1,6 +1,5 @@
 export const safehouse_data = [
-
-    {
+        {
         name: '세븐일레븐 신사시장점',
         city_county: '관악구',
         road_address: '서울특별시 관악구 신림동 남부순환로153길 35',
