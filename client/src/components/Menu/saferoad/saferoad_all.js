@@ -1,9 +1,10 @@
 import React from 'react'
+import Table from './saferoad_table'
 
 const saferoad_all = () => {
     return (
         <div>
-            안심거리 모아보기
+            <Table />
         </div>
     )
 }
