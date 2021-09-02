@@ -2,7 +2,7 @@ import React from "react";
 import cloneDeep from "lodash/cloneDeep";
 import Pagination from "rc-pagination";
 import "rc-pagination/assets/index.css";
-import { DongjakData } from "../CountySafehouseData/DongjakData"
+import { SeongbukData } from "../CountySafehouseData/SeongbukData"
 
 const tableHead = {
     name: "점포명",
@@ -12,18 +12,18 @@ const tableHead = {
     tel_number: "지킴이집 전화번호"
 };
 
-const DongjakTable = () => {
+const SeongbukTable = () => {
   const countPerPage = 15;
   const [currentPage, setCurrentPage] = React.useState(1);
   const [collection, setCollection] = React.useState(
-    cloneDeep(DongjakData.slice(0, countPerPage))
+    cloneDeep(SeongbukData.slice(0, countPerPage))
   );
 
   const updatePage = p => {
     setCurrentPage(p);
     const to = countPerPage * p;
     const from = to - countPerPage;
-    setCollection(cloneDeep(DongjakData.slice(from, to)));
+    setCollection(cloneDeep(SeongbukData.slice(from, to)));
   };
 
   const tableRows = rowData => {
@@ -53,7 +53,7 @@ const DongjakTable = () => {
         pageSize={countPerPage}
         onChange={updatePage}
         current={currentPage}
-        total={DongjakData.length}
+        total={SeongbukData.length}
       />
       <table>
         <thead>
@@ -66,4 +66,4 @@ const DongjakTable = () => {
 
   );
 };
-export default DongjakTable;
+export default SeongbukTable;

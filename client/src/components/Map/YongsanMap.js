@@ -32,7 +32,7 @@ function YongsanMap() {
     return (
         <div>
         <div id="map" style={{width:"40%", height:"50%"}}></div>
- 
+
         </div>
     )
 }
