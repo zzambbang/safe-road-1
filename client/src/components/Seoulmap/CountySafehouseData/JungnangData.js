@@ -1,4 +1,4 @@
-  export default JungnangData = [
+  export const JungnangData = [
   {
     name: "세븐일레븐 면목로데오점",
     city_county: "중랑구",

@@ -1,10 +1,13 @@
 import React from 'react'
 import DongjakMap from '../Map/DongjakMap'
+import DongjakTable from '../Seoulmap/CountySafehouseTable/DongjakTable'
 
 const Dongjak_gu = () => {
     return (
         <div>
-            <DongjakMap />
+            <DongjakMap />  
+            <DongjakTable />
+            <DongjakTable />
         </div>
     )
 }

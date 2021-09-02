@@ -1,4 +1,4 @@
-  export default YangcheonData = [
+  export const YangcheonData = [
   {
     name: "CU  목4동점",
     city_county: "양천구",

@@ -1,4 +1,4 @@
-  export default YongsanData = [
+  export const YongsanData = [
   {
     name: "미니스톱 동부이촌점",
     city_county: "용산구",

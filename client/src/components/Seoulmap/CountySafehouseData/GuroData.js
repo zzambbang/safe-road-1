@@ -1,4 +1,4 @@
-  export default GuroData = [
+  export const GuroData = [
   {
     name: "미니스톱 구로구청점",
     city_county: "구로구",

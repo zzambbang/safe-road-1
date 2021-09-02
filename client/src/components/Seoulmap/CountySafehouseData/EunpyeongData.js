@@ -1,4 +1,4 @@
-  export default EunpyeongData = [
+  export const EunpyeongData = [
   {
     name: "세븐일레븐 연신내점",
     city_county: "은평구",

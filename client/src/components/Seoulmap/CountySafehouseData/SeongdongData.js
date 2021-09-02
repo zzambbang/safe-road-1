@@ -1,4 +1,4 @@
-  export default SeongdongData = [
+  export const SeongdongData = [
   {
     name: "세븐일레븐 한양본점",
     city_county: "성동구",

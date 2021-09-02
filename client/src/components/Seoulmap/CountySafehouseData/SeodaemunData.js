@@ -1,4 +1,4 @@
-  export default SeodaemunData = [
+  export const SeodaemunData = [
   {
     name: "CU",
     city_county: "서대문구",
