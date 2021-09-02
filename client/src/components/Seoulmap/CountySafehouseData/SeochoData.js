@@ -1,4 +1,4 @@
-  export default SeochoData = [
+  export const SeochoData = [
   {
     name: "GS25 양재구룡점",
     city_county: "서초구",

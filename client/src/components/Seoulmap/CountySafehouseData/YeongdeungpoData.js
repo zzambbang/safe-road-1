@@ -1,4 +1,4 @@
-  export default YeongdeungpoData = [
+  export const YeongdeungpoData = [
   {
     name: "CU 당산중앙점",
     city_county: "영등포구",

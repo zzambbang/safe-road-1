@@ -1,4 +1,4 @@
-  export default GangdongData = [
+  export const GangdongData = [
   {
     name: "세븐일레븐 길동제일점",
     city_county: "강동구",

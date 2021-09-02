@@ -1,4 +1,4 @@
-  export default GwanakData = [
+  export const GwanakData = [
   {
     name: "세븐일레븐 신사시장점",
     city_county: "관악구",

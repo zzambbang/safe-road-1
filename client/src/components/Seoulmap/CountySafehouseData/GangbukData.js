@@ -1,4 +1,4 @@
-  export default GangbukData = [
+  export const GangbukData = [
   {
     name: "CU 미아동부점",
     city_county: "강북구",

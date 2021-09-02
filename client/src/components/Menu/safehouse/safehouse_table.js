@@ -10,7 +10,7 @@ const tableHead = {
   city_county: "시군구명",
   road_address: "소재지 도로명주소",
   number_address: "소재지 지번주소",
-  tel_number: "지킴이집 전화번호",
+  tel_number: "지킴이집 전화번호"
 };
 
 const Table = () => {
@@ -72,7 +72,7 @@ const Table = () => {
     <>
       <div class="search">
         <input
-          placeholder="검색"
+          placeholder="시군구명 검색"
           value={value}
           onChange={e => setValue(e.target.value)}
         />

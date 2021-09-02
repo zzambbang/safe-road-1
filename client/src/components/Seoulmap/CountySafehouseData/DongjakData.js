@@ -1,4 +1,4 @@
-  export default DongjakData = [
+  export const DongjakData = [
   {
     name: "cu 상도약수점",
     city_county: "동작구",

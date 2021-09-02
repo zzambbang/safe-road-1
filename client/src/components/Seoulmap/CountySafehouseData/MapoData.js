@@ -1,4 +1,4 @@
-  export default MapoData = [
+  export const MapoData = [
   {
     name: "GS25 망원중앙",
     city_county: "마포구",

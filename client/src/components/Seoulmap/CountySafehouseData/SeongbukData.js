@@ -1,4 +1,4 @@
-  export default SeongbukData = [
+  export const SeongbukData = [
   {
     name: "GS25성북한천로",
     city_county: "성북구",

@@ -8,8 +8,8 @@ function SeongdongMap() {
   }, []);
 
   const mapscript = () => {
-    let container = document.getElementById("map");
-    let options = {
+    const container = document.getElementById("map");
+    const options = {
       center: new kakao.maps.LatLng(37.56324, 127.03656),
       level: 5,
     };
@@ -31,7 +31,7 @@ function SeongdongMap() {
   };
     return (
         <div>
-        <div id="map" style={{width:"800px", height:"800px"}}></div>
+        <div id="map" style={{width:"40%", height:"50%"}}></div>
        
         </div>
     )

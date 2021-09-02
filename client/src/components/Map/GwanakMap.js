@@ -8,8 +8,8 @@ function GwanakMap() {
   }, []);
 
   const mapscript = () => {
-    let container = document.getElementById("map");
-    let options = {
+    const container = document.getElementById("map");
+    const options = {
       center: new kakao.maps.LatLng(37.4782404, 126.951502),
       level: 5,
     };
@@ -31,7 +31,7 @@ function GwanakMap() {
   };
     return (
         <div>
-        <div id="map" style={{width:"800px", height:"800px"}}></div>
+        <div id="map" style={{width:"40%", height:"50%"}}></div>
        
         </div>
     )

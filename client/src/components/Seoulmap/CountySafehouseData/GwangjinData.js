@@ -1,4 +1,4 @@
-  export default GwangjinData = [
+  export const GwangjinData = [
   {
     name: "CU 화양중앙점",
     city_county: "광진구",

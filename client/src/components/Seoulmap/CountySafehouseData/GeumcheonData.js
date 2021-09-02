@@ -1,4 +1,4 @@
-  export default GeumcheonData = [
+  export const GeumcheonData = [
   {
     name: "CU 가산원룸점",
     city_county: "금천구",

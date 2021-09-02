@@ -8,8 +8,8 @@ function GuroMap() {
   }, []);
 
   const mapscript = () => {
-    let container = document.getElementById("map");
-    let options = {
+    const container = document.getElementById("map");
+    const options = {
       center: new kakao.maps.LatLng(37.495454, 126.887459),
       level: 5,
     };
@@ -31,7 +31,7 @@ function GuroMap() {
   };
     return (
         <div>
-        <div id="map" style={{width:"800px", height:"800px"}}></div>
+        <div id="map" style={{width:"40%", height:"50%"}}></div>
        
         </div>
     )
