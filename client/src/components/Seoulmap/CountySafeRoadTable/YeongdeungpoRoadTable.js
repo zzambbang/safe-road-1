@@ -2,28 +2,27 @@ import React from "react";
 import cloneDeep from "lodash/cloneDeep";
 import Pagination from "rc-pagination";
 import "rc-pagination/assets/index.css";
-import { DongjakData } from "../CountySafehouseData/DongjakData"
+import { YeongdeungpoSaferoadData } from "../CountySaferoadData/YeongdeungpoSaferoadData";
 
 const tableHead = {
-    name: "점포명",
-    city_county: "시군구명",
-    road_address: "소재지 도로명주소",
-    number_address: "소재지 지번주소",
-    tel_number: "지킴이집 전화번호"
+  number: "귀갓길 번호",
+  city_county: "시군구명",
+  administrative: "행정동",
+  road_address: "소재지 도로명주소",
 };
 
-const DongjakTable = () => {
+const YeongdeungpoRoadTable = () => {
   const countPerPage = 15;
   const [currentPage, setCurrentPage] = React.useState(1);
   const [collection, setCollection] = React.useState(
-    cloneDeep(DongjakData.slice(0, countPerPage))
+    cloneDeep(YeongdeungpoSaferoadData.slice(0, countPerPage))
   );
 
   const updatePage = p => {
     setCurrentPage(p);
     const to = countPerPage * p;
     const from = to - countPerPage;
-    setCollection(cloneDeep(DongjakData.slice(from, to)));
+    setCollection(cloneDeep(YeongdeungpoSaferoadData.slice(from, to)));
   };
 
   const tableRows = rowData => {
@@ -47,23 +46,20 @@ const DongjakTable = () => {
   };
 
   return (
-    
     <div className="tableSet">
       <Pagination
         pageSize={countPerPage}
         onChange={updatePage}
         current={currentPage}
-        total={DongjakData.length}
+        total={YeongdeungpoSaferoadData.length}
       />
-      <table>
-        <thead>
-          <tr>{headRow()}</tr>
+      <table className="countyTable">
+        <thead className="countyThead">
+          <tr className="countyThead">{headRow()}</tr>
         </thead>
-        <tbody>{tableData()}</tbody>
+        <tbody className="trhover">{tableData()}</tbody>
       </table>
       </div>
-      
-
   );
 };
-export default DongjakTable;
+export default YeongdeungpoRoadTable;

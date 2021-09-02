@@ -1,12 +1,14 @@
 import React from 'react'
 import SeongdongMap from '../Map/SeongdongMap'
+import SeongdongTable from '../Seoulmap/CountySafehouseTable/SeongdongTable'
 
-const Seongdong_gu = () => {
+const SeongdongTable_gu = () => {
     return (
         <div>
             <SeongdongMap />
+            <SeongdongTable />
         </div>
     )
 }
 
-export default Seongdong_gu
+export default SeongdongTable_gu

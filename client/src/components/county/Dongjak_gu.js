@@ -7,7 +7,6 @@ const Dongjak_gu = () => {
         <div>
             <DongjakMap />  
             <DongjakTable />
-            <DongjakTable />
         </div>
     )
 }

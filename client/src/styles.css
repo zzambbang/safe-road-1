@@ -102,20 +102,6 @@ table {
   box-shadow: 0 1px 2px 0 #c6e8c9;
 }
 
-.countyTable {
-  width: 53%;
-  padding: 1em;
-  margin: 20px 60px;
-  border-collapse: collapse;
-  box-shadow: 0 1px 2px 0 #c6e8c9;
-  float: right;
-  margin-top: 100px;
-}
-
-.countyPagination {
-  float: center;
-}
-
 thead {
   background-color: skyblue;
   font-size: 16px;
@@ -139,6 +125,12 @@ tr {
 
 tr:nth-child(even) {
   background-color: #e0e0e0;
+}
+
+.tableSet {
+  margin-top: 20px;
+  margin-left: 50%;
+  margin-right: 40px;
 }
 
 #map {
