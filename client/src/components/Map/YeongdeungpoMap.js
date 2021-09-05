@@ -42,7 +42,7 @@ function YeongdeungpoMap() {
         map: map,
         path: line,
         strokeWeight: 5,
-        strokeColor: '#AFAE00', 
+        strokeColor: 'blue', 
         strokeOpacity: 1, 
         strokeStyle: 'solid'
       })

@@ -7,8 +7,7 @@ const Footer = () => {
             <Background>
                 <FooterContents>
                         <div>
-                            <p>대표자 전화번호 : 010-1234-5678</p>
-                            <p>made by. 201호 개발자들</p>
+                            <p>©201호 개발자들</p>
                         </div>
                 </FooterContents>
             </Background>
