@@ -1,6 +1,6 @@
 import React from 'react'
-import logo from '../../images/logo.jpg';
-import { Positioner, WhiteBackground, HeaderContents, Logo, GradientBorder } from './styles';
+import logo from '../../images/logo.png';
+import { Positioner, WhiteBackground, HeaderContents, GradientBorder } from './styles';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -11,7 +11,6 @@ const Header = () => {
                     <Link to='/'>
                     <img alt='logo' className='logo' src={logo} />                       
                     </Link>
-                    <Logo>안심거리·지킴이집 길라잡이</Logo>
                 </HeaderContents>
             </WhiteBackground>
             <GradientBorder />

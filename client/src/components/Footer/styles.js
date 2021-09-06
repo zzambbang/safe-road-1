@@ -6,6 +6,7 @@ export const Positioner = styled.div`
     flex-direction: column;
     bottom: 0px;
     width: 100%;
+    position: relative;
 `;
 
 // 배경, 내용 중간 정렬
@@ -19,7 +20,7 @@ export const Background = styled.div`
 // 푸터의 내용
 export const FooterContents = styled.div`
     width: 1200px;
-    height: 120px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
