@@ -1,4 +1,4 @@
-export const YeongdeungpoRoadData =[
+export const RoadMarkerData =[
     [    
         [
             37.525442, 126.903838

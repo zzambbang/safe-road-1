@@ -1,7 +1,7 @@
 /*global kakao*/ 
 import React, { useEffect } from 'react'
 import { MarkerData } from '../Marker/MarkerData'
-import { YeongdeungpoRoadData } from '../Marker/YeongdeungpoRoadData';
+import { RoadMarkerData } from '../Marker/RoadMarkerData';
 
 function YeongdeungpoMap() {
   useEffect(() => {
@@ -30,7 +30,7 @@ function YeongdeungpoMap() {
       });
     });
     
-    const linePaths = YeongdeungpoRoadData.map(function(line){
+    const linePaths = RoadMarkerData.map(function(line){
       return line.map(function(coord){
           console.log(coord[0], coord[1])
           return new kakao.maps.LatLng(coord[0], coord[1])
@@ -50,13 +50,11 @@ function YeongdeungpoMap() {
     
     }
 
-
     return (
         <div>
         <div id="map" style={{width:"40%", height:"50%"}}></div>
-       
+
         </div>
     )
-};
-
+}
 export default YeongdeungpoMap;
