@@ -36,8 +36,9 @@ Front-end
 ``` 
 
 * React
-* HTML 
-* CSS
+* language : javascript
+* build : yarn
+* communication : github, notion, discord 
 
 <br>
 
