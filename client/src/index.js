@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Carousel from './components/Carousel/Carousel';
+import Howtouse from './components/Howtouse/Howtouse';
 import SideBar from './sidebar/sidebar';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -23,7 +23,7 @@ function App() {
     <Switch>
       <Route path='/' exact>      
         <Seoul/>
-        <Carousel/>
+        <Howtouse/>
       </Route>
       <Route path='/saferoad_all' component={saferoad_all}>
       </Route>
