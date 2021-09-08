@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../../images/logo.png';
-import { Positioner, WhiteBackground, HeaderContents, GradientBorder } from './styles';
+import { Positioner, WhiteBackground, HeaderContents } from './styles';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -13,7 +13,6 @@ const Header = () => {
                     </Link>
                 </HeaderContents>
             </WhiteBackground>
-            <GradientBorder />
         </Positioner>
     );
 }
