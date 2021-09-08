@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles.css';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Carousel from './components/Carousel/Carousel';
 import SideBar from './sidebar/sidebar';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import  Seoul  from './components/Seoulmap/Seoul.jsx';
+import Seoul from './components/Seoulmap/Seoul.jsx';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import saferoad_all from './components/Menu/saferoad/saferoad_all';
 import safehouse_all from './components/Menu/safehouse/safehouse_all';
@@ -21,6 +23,7 @@ function App() {
     <Switch>
       <Route path='/' exact>      
         <Seoul/>
+        <Carousel/>
       </Route>
       <Route path='/saferoad_all' component={saferoad_all}>
       </Route>

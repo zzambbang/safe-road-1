@@ -13,7 +13,7 @@ export const Positioner = styled.div`
 
 // 흰 배경, 내용 중간 정렬
 export const WhiteBackground = styled.div`
-    background: #77CCFF;
+    background: #87ceeb;
     display: flex;
     justify-content: center;
     height: auto;
