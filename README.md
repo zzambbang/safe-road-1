@@ -34,6 +34,8 @@
 ![tech stack](https://user-images.githubusercontent.com/83628242/132540611-e118459f-59c6-4cdd-a0a8-33b4ec27f5c6.jpg)
 
 <br>
+<br>
+<br>
 
 ## 🔧 Web Architecture
 <br>
@@ -41,6 +43,9 @@
 ![web architecture](https://user-images.githubusercontent.com/83628242/132539213-b7f5b44a-38f9-494b-848a-c81513c99737.PNG)
 
 <br>
+<br>
+<br>
+
 ## ⚙ 핵심 기능
 
 
