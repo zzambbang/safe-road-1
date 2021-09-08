@@ -1,9 +1,10 @@
 import React from 'react'
+import motive from './motive.png'
 
 const motivation = () => {
     return (
         <div>
-            제작 동기
+            <img alt='motive' className='motive' src={motive} />
         </div>
     )
 }
