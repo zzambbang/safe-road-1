@@ -28,6 +28,10 @@
 |데이터|이혜지|[modsiw](https://github.com/zzambbang)|
 |데이터|김태완|[taewannn](https://github.com/taewannn)|
 
+<br>
+<br>
+<br>
+
 ## 🛠 사용 기술 스택
 <br>
 
