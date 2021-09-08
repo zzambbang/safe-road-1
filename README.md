@@ -62,6 +62,7 @@ deploy
 <br>
 
 ## Web Architecture
+![web architecture](https://user-images.githubusercontent.com/83628242/132539213-b7f5b44a-38f9-494b-848a-c81513c99737.PNG)
 
 
 ## ⚙ 핵심 기능
