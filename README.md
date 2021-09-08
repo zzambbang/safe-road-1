@@ -24,47 +24,23 @@
 |------|---|---|
 |프론트|이영한|[2zerone](https://github.com/2zerone)|
 |프론트|한지은|[onezeun](https://github.com/onezeun)|
-|백|주지운|[zu21un](https://github.com/zu21un)|
-|백|이혜지|[modsiw](https://github.com/zzambbang)|
-|백|김태완|[taewannn](https://github.com/taewannn)|
+|데이터|주지운|[zu21un](https://github.com/zu21un)|
+|데이터|이혜지|[modsiw](https://github.com/zzambbang)|
+|데이터|김태완|[taewannn](https://github.com/taewannn)|
 
 ## 🛠 사용 기술 스택
 <br>
 
-```
-Front-end
-``` 
-
-* React
-* language : javascript
-* build : yarn
-* communication : github, notion, discord 
-
-<br>
-
-```
-Back-end
-```
-
-* Django
-* Python 3
-* PostgreSQL 11
-
-<br>
-
-```
-deploy
-```
-
-* AWS EC2(Linux)
-
+![tech stack](https://user-images.githubusercontent.com/83628242/132540611-e118459f-59c6-4cdd-a0a8-33b4ec27f5c6.jpg)
 
 <br>
 
 ## 🔧 Web Architecture
+<br>
+
 ![web architecture](https://user-images.githubusercontent.com/83628242/132539213-b7f5b44a-38f9-494b-848a-c81513c99737.PNG)
 
-
+<br>
 ## ⚙ 핵심 기능
 
 
