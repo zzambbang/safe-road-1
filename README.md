@@ -36,6 +36,7 @@
 <br>
 
 ![tech stack](https://user-images.githubusercontent.com/83628242/132540611-e118459f-59c6-4cdd-a0a8-33b4ec27f5c6.jpg)
+<br>
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5e81d29e-5e8a-4aa1-aad4-021a6d6fca6e/deploy-status)](https://app.netlify.com/sites/201safe/deploys)
 <br>
 <br>
