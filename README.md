@@ -51,6 +51,9 @@
 <br>
 
 ## ⚙ 핵심 기능
+![주요기능](https://user-images.githubusercontent.com/50399088/132606650-d6d11bd1-b476-4f32-b47a-ff2a71c23503.png)
+
+![주요기능](https://user-images.githubusercontent.com/50399088/132606673-5a336685-eb32-4572-8118-94d191644265.png)
 
 
 
