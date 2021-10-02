@@ -12,7 +12,10 @@
 <br>
 <br>
 
+### ▶️ 구동 영상 
+https://youtu.be/mPN-k1ePtmw
 
+<br>
 ## 👨‍👨‍👧‍👧 팀 소개 
 <br>
 
